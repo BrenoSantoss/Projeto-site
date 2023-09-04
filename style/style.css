@@ -207,6 +207,7 @@ fieldset{
 .inputbox {
     position: relative;
     padding: 5px;
+    
 }
 
 /* Input user styles */
@@ -267,5 +268,7 @@ fieldset{
     border: 1px solid black;
     width: 140px;
     border-radius: 10px;
-    
+}
+element{
+    padding: 2px;
 }
