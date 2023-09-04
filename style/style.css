@@ -3,7 +3,11 @@
     margin: 0;
     padding: 0;
 }
-
+:root{
+    --cor-primaria: #201B2C ;
+    --cor-secundaria: #00ff88 ;
+    --cor-terciaria: #77ffc7;
+}
 .index {
     box-sizing: border-box; 
     font-family: 'Noto Sans', sans-serif;
@@ -12,16 +16,16 @@ legend{
     border: 1px solid #00ff88;
     display: flex;
     padding: 3%;
-    margin-left:20% ;
     text-align: center;
-    background: #201B2C;
+    background: var(--cor-primaria);
     border-radius: 8px;
+    justify-content: center;
 }
 
 .main-login{
     width: 100vw;
     height: 100vh;
-    background: #201B2C;    
+    background: var(--cor-primaria);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -39,7 +43,7 @@ legend{
 
 .left-login > h1 {
     font-size: 2vw;
-    color: #77ffc7;
+    color: var(--cor-terciaria);
 }
 
 .h1-img{
@@ -61,13 +65,13 @@ legend{
     align-items: center;
     flex-direction: column;
     padding: 30px 35px;
-    background-color: #2f2841;
+    background-color: var(--cor-primaria);
     border-radius: 20px;
     box-shadow: 0px 10px 40px #00000056;
 }
 
 .card-login > h1{
-    color : #00ff88;
+    color : var(--cor-secundaria);
     font-weight: 800;
     margin: 0;
 } 
@@ -114,7 +118,7 @@ legend{
         font-weight: 800;
         letter-spacing: 3px;
         color: #2b134b;
-        background: #00ff88;
+        background: var(--cor-secundaria);
         cursor: pointer;
         box-shadow: 0px 10px 40px -12px #00ff8052; 
 }
@@ -172,6 +176,8 @@ legend{
     .card-login{ 
     width: 90%;
 }
+/*---------------------------------------------------------------------------------------------FORM----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+/*---------------------------------------------------------------------------------------------FORM----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
 }
 .color{
     background: #201B2C;
@@ -191,15 +197,16 @@ legend{
     
 }
 .form{
-    
     align-items: center;
 }
 fieldset{
     border: 2px solid #00ff88;
+    
 }
 /* Input box styles */
 .inputbox {
     position: relative;
+    padding: 5px;
 }
 
 /* Input user styles */
@@ -241,16 +248,24 @@ fieldset{
     font-size: 15px;
     color: white;
 }
-
-.botao{
-    border-radius: 10px;
-    outline: none;
-    padding: 10px;
-    margin: 10px 10px 10px 30%;
+.botao-div{
+    display: flex;
+    padding: 15px;
+    justify-content: center;
+    gap: 30px;
 }
-.botao-cancelar{
-    border-radius: 10px;
+.botao{
+    border-radius: 1vw;
+    outline: none;
     text-decoration: none;
-    padding: 10px 0px 0px;
-    margin: 10px;
+    padding: 2% 10%;
+    cursor: pointer;
+}
+
+.link-cancelar{
+    text-decoration: none;
+    border: 1px solid black;
+    width: 140px;
+    border-radius: 10px;
+    
 }
