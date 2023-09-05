@@ -1,13 +1,16 @@
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap');
+
 *{
     margin: 0;
     padding: 0;
 }
+
 :root{
     --cor-primaria: #201B2C ;
     --cor-secundaria: #00ff88 ;
     --cor-terciaria: #77ffc7;
 }
+
 .index {
     box-sizing: border-box; 
     font-family: 'Noto Sans', sans-serif;
@@ -98,19 +101,6 @@
         color: #f0ffff94;
 }
 
-legend{
-    border: 1px solid #00ff88;
-    display: flex;
-    padding: 3%;
-    text-align: center;
-    background: var(--cor-primaria);
-    border-radius: 8px;
-    justify-content: center;
-}
-
-
-
-
 .btn-login{
         width: 100%;
         padding: 16px 0px;
@@ -126,6 +116,7 @@ legend{
         cursor: pointer;
         box-shadow: 0px 10px 40px -12px #00ff8052; 
 }
+
 .cadastro{
     color: white;
     font-size: 1.1rem;
@@ -139,19 +130,19 @@ legend{
     padding: 10px;
     position: fixed;
     bottom: 0;
-
 }
+
 .img {
     height: 20px;
     width: 20px;
 }
+
 .link {
     text-decoration: none;
     font-weight: 600;
     color: #00ff88;
     font-family: Arial, Helvetica, sans-serif;
 }
-
 
 @media only screen and (max-width: 900px){
     .card-login{
@@ -180,13 +171,13 @@ legend{
     .card-login{ 
     width: 90%;
 }
-/*---------------------------------------------------------------------------------------------FORM----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
-/*---------------------------------------------------------------------------------------------FORM----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
 }
+/*---------------------------------------------------------------------------------------------CADASTRO----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+/*---------------------------------------------------------------------------------------------CADASTRO----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
 .color{
     background: #201B2C;
 }
-/* Box styles */
+
 .box {
     position: absolute;
     top: 50%;
@@ -200,21 +191,32 @@ legend{
     max-width: 450px;
     
 }
-.form{
-    align-items: center;
-}
+
 fieldset{
     border: 2px solid #00ff88;
     
 }
-/* Input box styles */
+
+legend{
+    border: 1px solid #00ff88;
+    display: flex;
+    padding: 3%;
+    text-align: center;
+    background: var(--cor-primaria);
+    border-radius: 8px;
+    justify-content: center;
+}
+
+.form{
+    align-items: center;
+}
+
 .inputbox {
     position: relative;
     padding: 5px;
     
 }
 
-/* Input user styles */
 .inputuser {
     background: none;
     border: none;
@@ -226,7 +228,6 @@ fieldset{
     letter-spacing: 2px;
 }
 
-/* Label styles */
 .label {
     position: absolute;
     top: 0;
@@ -235,7 +236,6 @@ fieldset{
     transition: .5s;
 }
 
-/* Label animation on focus or valid input */
 .inputuser:focus ~ .label,
 .inputuser:valid ~ .label {
     top: -20px;
@@ -243,16 +243,6 @@ fieldset{
     color: #00ff88;
 }
 
-/* Additional input styles (e.g., data_nascimento) */
-#data_nascimento {
-    border: none;
-    padding: 8px;
-    border-radius: 10px;
-    outline: none;
-    background-color: #1717188c;
-    font-size: 1rem;
-    color: white;
-}
 .botao-div{
     display: flex;
     padding: 15px;
@@ -260,6 +250,7 @@ fieldset{
     gap: 30px;
     align-items: center;
 }
+
 .botao{
     border-radius: 11px;
     border: 2px solid black;
