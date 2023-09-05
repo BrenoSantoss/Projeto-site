@@ -42,7 +42,7 @@ legend{
 }
 
 .left-login > h1 {
-    font-size: 2vw;
+    font-size: 2rem;
     color: var(--cor-terciaria);
 }
 
@@ -92,7 +92,7 @@ legend{
     padding: 15px;
     background : #514869;
     color: #f0ffffde;
-    font-size: 12pt;
+    font-size: 1rem;
     box-shadow: 0px 10px 40px #00000056;
     outline: none;
     box-sizing: border-box;
@@ -124,7 +124,7 @@ legend{
 }
 .cadastro{
     color: white;
-    font-size: medium;
+    font-size: 1.1rem;
     font-family: 'Times New Roman', Times, serif;
 }
 
@@ -217,7 +217,7 @@ fieldset{
     border-bottom: 1px solid white;
     outline: none;
     color: white;
-    font-size: 15px;
+    font-size: 1rem ;
     width: 100%;
     letter-spacing: 2px;
 }
@@ -235,7 +235,7 @@ fieldset{
 .inputuser:focus ~ .label,
 .inputuser:valid ~ .label {
     top: -20px;
-    font-size: 12px;
+    font-size: 1.1rem;
     color: #00ff88;
 }
 
@@ -246,7 +246,7 @@ fieldset{
     border-radius: 10px;
     outline: none;
     background-color: #1717188c;
-    font-size: 15px;
+    font-size: 1rem;
     color: white;
 }
 .botao-div{
