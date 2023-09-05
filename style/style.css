@@ -17,8 +17,8 @@
 }
 
 .main-login{
-    width: 100vw;
-    height: 100vh;
+    width: 100%;
+    height: 100%;
     background: var(--cor-primaria);
     display: flex;
     justify-content: center;
@@ -130,6 +130,7 @@
     padding: 10px;
     position: fixed;
     bottom: 0;
+    width: 100%;
 }
 
 .img {
@@ -184,17 +185,17 @@
     left: 50%;
     transform: translate(-50%, -50%);
     background: #14111b;
-    padding: 30px;
-    border-radius: 25px;
-    width: 30%;
+    padding: 20px; 
+    border-radius: 10px;
+    width: 100%;
     color: white;
-    max-width: 450px;
+    max-width: 460px;
     
 }
 
 fieldset{
     border: 2px solid #00ff88;
-    
+    width: 100%;
 }
 
 legend{
@@ -208,24 +209,25 @@ legend{
 }
 
 .form{
-    align-items: center;
+    display: flex;
+    width: 60%;
+    padding: 9px;
 }
 
 .inputbox {
     position: relative;
-    padding: 5px;
-    
+    padding: 6px;
 }
 
 .inputuser {
     background: none;
     border: none;
-    border-bottom: 1px solid white;
+    border-bottom: 1px solid rgb(173, 172, 172);
     outline: none;
     color: white;
-    font-size: 1rem ;
+    font-size: 1rem;
     width: 100%;
-    letter-spacing: 2px;
+    letter-spacing: 1px;
 }
 
 .label {
@@ -234,6 +236,7 @@ legend{
     left: 0;
     pointer-events: none;
     transition: .5s;
+    padding: 7px;
 }
 
 .inputuser:focus ~ .label,
@@ -262,13 +265,3 @@ legend{
     background-color: var(--cor-secundaria);
 }
 
-.link-cancelar{
-    border-radius: 11px;
-    border: 2px solid black;
-    outline: none;
-    text-decoration: none;
-    border: 1px solid black;
-    width: 140px;
-    border-radius: 10px;
-    
-}
