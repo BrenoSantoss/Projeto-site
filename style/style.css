@@ -259,9 +259,11 @@ legend{
     border: 2px solid black;
     outline: none;
     text-decoration: none;
-    padding: 2% 10%;
+    padding: 9px 50px;
     cursor: pointer;
     box-shadow: black;
     background-color: var(--cor-secundaria);
+    font-size: 1.1rem;
+    font-family: 'Times New Roman', Times, serif;
 }
 
