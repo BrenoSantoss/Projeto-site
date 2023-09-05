@@ -12,15 +12,6 @@
     box-sizing: border-box; 
     font-family: 'Noto Sans', sans-serif;
 }
-legend{
-    border: 1px solid #00ff88;
-    display: flex;
-    padding: 3%;
-    text-align: center;
-    background: var(--cor-primaria);
-    border-radius: 8px;
-    justify-content: center;
-}
 
 .main-login{
     width: 100vw;
@@ -106,6 +97,19 @@ legend{
 .textfield > input::placeholder{
         color: #f0ffff94;
 }
+
+legend{
+    border: 1px solid #00ff88;
+    display: flex;
+    padding: 3%;
+    text-align: center;
+    background: var(--cor-primaria);
+    border-radius: 8px;
+    justify-content: center;
+}
+
+
+
 
 .btn-login{
         width: 100%;
