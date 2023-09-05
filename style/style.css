@@ -253,19 +253,26 @@ fieldset{
     padding: 15px;
     justify-content: center;
     gap: 30px;
+    align-items: center;
 }
 .botao{
-    border-radius: 1vw;
+    border-radius: 11px;
+    border: 2px solid black;
     outline: none;
     text-decoration: none;
     padding: 2% 10%;
     cursor: pointer;
+    box-shadow: black;
+    background-color: var(--cor-secundaria);
 }
 
 .link-cancelar{
+    border-radius: 11px;
+    border: 2px solid black;
+    outline: none;
     text-decoration: none;
-    border: 1px solid black;
-    width: 140px;
-    border-radius: 10px;
-    
+    box-shadow: black;
+    background-color: var(--cor-secundaria);
+    display: flex;
+    padding: 1.4%;
 }
