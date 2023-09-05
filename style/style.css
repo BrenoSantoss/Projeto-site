@@ -23,7 +23,6 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    
 }
 
 .left-login{
@@ -267,3 +266,22 @@ legend{
     font-family: 'Times New Roman', Times, serif;
 }
 
+@media(max-width:900px) {
+    .main-login{
+    display: flex;
+    }
+    .rodape{
+        text-align: left;
+    }
+
+}
+
+@media(max-width:900px) {
+    .box{
+    display: block;
+    }
+    .rodape{
+        text-align: left;
+    }
+
+}
